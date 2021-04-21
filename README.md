@@ -1,6 +1,6 @@
 # pyMandelbrot
 
-# Usage
+## Usage
 ```
 usage: MandelbrotTk.py [-h] [-w size] [-s size] [-i iterations] [--high_prec] [--prec_bits bits] [--nointerlace]
 
@@ -15,3 +15,17 @@ optional arguments:
   --prec_bits bits  If using High Precision, precision in bits
   --nointerlace     Disable Interlacing
   ```
+
+## Requirements
+```
+  pillow / PIL
+  numpy
+  colorsys
+  multiprocessing
+  threading
+  tkinter
+  mpmath
+  json
+  base64
+  argparse
+ ```
